@@ -1,5 +1,6 @@
 h1{
-    color: red
+    color: red;
+    font-size: 60px;
 }
 
 img {
@@ -10,5 +11,10 @@ img {
 
 body {
     background-color: black;
+}
+
+h2 {
+    color: white;
+    font-size: 60px;
 }
 
