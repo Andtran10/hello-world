@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: black;
+    z-index: 1000;
+}
+
+/* customizes <header-main> */
+
+.header-main {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000; 
+}
+
+.header-title {
+    width: 1000px;
+    height: 100%;
+    background-color: ;
+    margin-left:30px
+
+}
+
+.header-home {
+    width: fit-content;
+    height: 100%;
+
+}
+
+
+.header-title h1 {
+    color:sandybrown;
+    width: fit-content;
+    line-height: 100px;
+    
+}
+/* Controls entire ul and placements */
+
+.header-home ul {
+    margin-left: auto;
+    list-style: none;
+    
+
+}
+
+/* formats where the each piece of list goes */
+
+.header-home ul li {
+    display:inline;
+    float: left;
+    line-height: 100px;
+
+
+}
+
+/* Controls text within (what is showing on the web page) */
+
+.header-home ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    color:whitesmoke;
+    padding: 0 20px;
+    line-height: 100px;
+    
+}
+
+/* hover over text will change color */
+
+.header-home ul li a:hover {
+    color: red
+}
+

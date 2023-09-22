@@ -1,0 +1,49 @@
+h2 {
+    text-align: center;
+    font-size: 100px;
+    color: orange;
+    margin-top: 7%;
+
+}
+
+#paragraph-h2 {
+    margin-left: 5%;
+    margin-top: 9%;
+    margin-right: 50%;
+    font-size: 20px;
+    color:white;
+    
+}
+
+.sun1 {
+    position: absolute;
+    margin-left: 65%;
+    margin-top: -27%;
+    margin-right: 5%;
+    width: 600px;
+    height: 600px; 
+    z-index: 10;
+
+}
+
+.sun2 {
+    position: absolute;
+    margin-left: 65%;
+    margin-bottom: 73%;
+    margin-right: 5%;
+    width: 600px;
+    height: 600px; 
+    z-index: 10;
+
+}
+
+.sun3 {
+    position:absolute;
+    margin-left: 5%;
+    margin-bottom: 91%;
+    margin-right: 50%;
+    width: 600px;
+    height: 600px; 
+    z-index: 10;
+}
+
