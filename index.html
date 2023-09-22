@@ -1,75 +1,70 @@
 <!DOCTYPE html>
-<html>
-    <head> 
-        <link rel="Stylesheet" href="style.css">
-        <title>Website from scratch</title>
-        
-    </head>
-    <body>
-        <header>
-            <h1 style="text-align: center">Solar System</h1>
-            <p style="text-align: center;color:orange">Named after our sun "Sol"</p>
-        </header>
-     <main>
-        <section>
-            <h2 style="text-align: center">Planets</h2>
-                <p style="margin-left: 5%;margin-right: 5%;">
-                <span style="color:#2e3d59;margin-left: 3%;font-size: 23px">Earth</span> 
-                <span style="color:#D9B89C;margin-left: 36%;font-size: 23px">Mars</span>
-                <span style="color:#5246A6;margin-left: 35%;font-size: 23px">Neptune</span>
-                </p>
-                
-        
+<html lang="en">
 
-            <p style="margin-left: 5%;margin-right: 5%;">
-            <span style="margin-left: 0%"><img src="https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3174&q=80"/></span>
-            <span style="margin-left: 30%"><img src="https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3174&q=80"/></span>
-            <span style="margin-left: 30%"><img src="https://images.unsplash.com/photo-1614313913007-2b4ae8ce32d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3174&q=80"/></span>
+<head>
+    <title>New Website</title>
+    <link rel="Stylesheet" href="header.css">
+    <link rel="Stylesheet" href="test.css">
+
+</head>
+
+<body>
+    <header class="header-main">
+        <div class="header-title">
+            <h1>Solar System</h1>
+        </div>
+        <nav class="header-home">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Planets.html">Planets</a></li>
+                <li><a href="Moons.html">Moons</a></li>
+                <li><a href="https://andtran10.github.io/reading-notes/">Contact</a></li>
+            </ul>
+            <script src="app.js"></script>
+
+        </nav>
+    </header>
+    <main>
+        <h2 id="Osun">Our Sun</h2>
+        <div class="button1">
+        <button type="button" onclick="changeColor()" style="background-color: black border-radius: 5px;" >Click me</button>
+        </div>
+        <p id="paragraph-h2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Sodales neque sodales ut etiam sit amet nisl. At varius vel pharetra vel
+            turpis nunc eget. Morbi leo urna molestie at. Non pulvinar neque laoreet suspendisse interdum. Magna
+            fringilla urna porttitor rhoncus dolor purus non enim. Maecenas volutpat blandit aliquam
+            etiam erat velit scelerisque in. Aliquam id diam maecenas ultricies mi eget mauris pharetra. Pulvinar
+            elementum integer enim neque volutpat ac. Sagittis vitae et leo duis ut diam quam nulla. Nunc sed velit
+            dignissim sodales ut. Ut tellus elementum sagittis vitae et leo duis ut. Integer malesuada nunc vel risus
+            commodo viverra maecenas accumsan lacus.
+            Quis hendrerit dolor magna eget. At augue eget arcu dictum varius. Faucibus ornare suspendisse sed nisi
+            lacus sed viverra. Semper auctor neque vitae tempus quam pellentesque nec nam. Quis eleifend quam adipiscing
+            vitae proin sagittis nisl. Quam pellentesque nec nam aliquam. Volutpat commodo sed egestas egestas fringilla
+            phasellus faucibus
+            scelerisque. Nibh sit amet commodo nulla. Lectus magna fringilla urna porttitor rhoncus dolor purus non.
+            Eget dolor morbi non arcu risus quis varius quam quisque.
+            Mattis vulputate enim nulla aliquet porttitor. Id venenatis a condimentum vitae sapien pellentesque. Blandit
+            cursus risus at ultrices mi tempus imperdiet nulla. Sit amet venenatis urna cursus eget nunc scelerisque.
+            Dui id ornare arcu odio ut sem. Ante metus
+            dictum at tempor commodo ullamcorper a. Pellentesque elit eget gravida cum sociis natoque. In vitae turpis
+            massa sed. Nisl nisi scelerisque eu ultrices vitae auctor eu. At risus viverra adipiscing at in tellus
+            integer feugiat scelerisque. Duis ut diam quam nulla porttitor. Vitae semper quis lectus nulla at. In ornare
+            quam viverra orci sagittis eu volutpat. Non odio euismod lacinia at quis risus sed. Amet mattis vulputate
+            enim nulla aliquet porttitor lacus luctus. Nisl condimentum id venenatis a condimentum.
         </p>
+        <img class="sun1" src="img/sun1.jpg" alt="picture of sun" />
+    </main>
+    <section>
+        <h2 id="Asun">Solar Flare</h2>
+        <img class="sun2" src="img/solsticeflare.jpg" alt="solsticeflare"/>
+        <img class="sun3" src="img/Halloween_Sun_2014.jpg" alt="flare"/>
+    </section>
 
-        <p style="margin-left: 5%;margin-right: 5%;">
-            <span style="color:#CEF2F2;margin-left: 3%;font-size: 23px">Uranus</span> 
-            <span style="color:#914811;margin-left: 34.5%;font-size: 23px">Venus</span>
-            <span style="color:#A6A6A6;margin-left: 34.5%;font-size: 23px">Mercury</span>
-            </p>
-        <p style="margin-left: 5%;margin-right: 5%;">
-        <span style="margin-left: 0%"><img src="https://images.unsplash.com/photo-1614732484003-ef9881555dc3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3174&q=80"/></span>
-        <span style="margin-left: 30%"><img src="https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/imagesvenus20191211venus20191211-16.jpeg"/></span>
-        <span style="margin-left: 30%"><img src="https://images.unsplash.com/photo-1614724723656-457e78e0b50b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3217&q=80"/></span>
-    </p>
-    <p style="margin-left: 5%;margin-right: 5%;">
-        <span style="color:#DCBF7B;margin-left: 3%;font-size: 23px">Jupiter</span> 
-        <span style="color:#BC6A30;margin-left: 35%;font-size: 23px">Saturn</span>
-        </p>
-        
 
-    <p style="margin-left: 5%;margin-right: 5%;">
-    <span style="margin-left: 0%"><img src="https://solarsystem.nasa.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcGdEIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--9a0fd99cd3f39d7e970db64f277049ddbb4dfded/PIA04866.jpg?disposition=inline"/></span>
-    <span style="margin-left: 30%"><img src="https://images.unsplash.com/photo-1614732414444-096e5f1122d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3174&q=80"/></span>
-</p>
-        </section>
 
-        <section>
-            <h2 style="text-align: center">Moons</h2>
-                <ul style="margin-left: 5%;margin-right: 5%;">
-                 <li style="color:grey">Moon</li>
-                 <img src="https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3202&q=80"/>
-                 <li style="color:yellow">IO</li>
-                 <img src="https://solarsystem.nasa.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdU1FIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--6c6155ce5bd126c87708c65670cf24438dcc2bfe/PIA02308.jpg?disposition=inline"/>
-                 <li style="color:brown">Titan</li>
-                 <img src="https://solarsystem.nasa.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZHc9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--f1c8114a8fb8d481d3ea303e703c958583e73ce8/TitanHaze1000w.jpg?disposition=inline"/>
-                 
-                </ul>
 
-        </section>
 
-     </main>
-    
-    <footer>
-<nav>
-    <a href="http://andtran10.github.io/reading-notes/">Homepage</a>
 
-</nav>
-    </footer>
-    </body>
+</body>
+
 </html>
