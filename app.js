@@ -14,9 +14,24 @@ console.log(usersName);
     
 } */
 
-function changeColor() {
-    document.getElementById("Osun").style.color = "green";
+function change() {
+    document.getElementById("Osun").style.color = changeColor();
+
 }
+
+function changeColor() {
+    return '#' + Math.floor(Math.random() * 16777215).toString(16);
+
+}
+
+
+
+
+
+
+
+
+
 
 if (usersName == "Andrew"){
     document.write(" Helloooooooo");
