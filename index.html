@@ -5,7 +5,7 @@
     <title>New Website</title>
     <link rel="Stylesheet" href="header.css">
     <link rel="Stylesheet" href="test.css">
-
+    <script src="app.js"></script>
 </head>
 
 <body>
@@ -20,11 +20,16 @@
                 <li><a href="Moons.html">Moons</a></li>
                 <li><a href="https://andtran10.github.io/reading-notes/">Contact</a></li>
             </ul>
-            <script src="app.js"></script>
+            <script>
+                alert("Welcome to my page!")
+                const name1 = newUsersName();
+                welcomeMess(name1);
+            </script>
 
         </nav>
     </header>
     <main>
+      
         <h2 id="Osun">Sun</h2>
         <div class="button1">
         <button type="button" onclick="change()" style="background-color: black border-radius: 5px;" >Change Sun color</button>

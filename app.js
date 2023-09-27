@@ -1,18 +1,34 @@
-'use strict'
+'use strict';
 
-alert("Welcome");
+let usersName = '';
+let userInput = '';
+let idString = '';
 
-const usersName = prompt("What is your name");
-console.log(usersName);
+function newUsersName() {
+    usersName = prompt("What is your name?");
+    while (usersName == null || usersName == '') {
+        if (usersName == null) {
+            usersName = confirm("skip?");
+            usersName = '';
+            return usersName;
+        } else {
+            usersName = prompt("input anything plz.");
+        }
 
- document.write("Hi " + usersName + " Welcome to my page")
+    }
+    return usersName;
+}
 
 
-/* function visitPage() {
-    window.location='https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+function welcomeMess(usersName) {
+    if (usersName !== null && usersName !== '') {
+        document.write("Helloooooooo " + usersName + "!");
+    }
+    else {
+        document.write(" Enjoy your stay");
+    }
 
-    
-} */
+}
 
 function change() {
     document.getElementById("Osun").style.color = changeColor();
@@ -27,18 +43,11 @@ function changeColor() {
 
 
 
-
-
-
-
-
-
-if (usersName == "Andrew"){
+/* document.write("Hi " + usersName + " Welcome to my page") */
+/* if (usersName == "Andrew") {
     document.write(" Helloooooooo");
-} else if (usersName == null){
+} else if (usersName == null) {
     document.write(" You lazy bum")
 } else {
     document.write(" Enjoy your stay")
-}
-
-
+ */
