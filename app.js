@@ -40,14 +40,11 @@ function changeColor() {
 
 }
 
+function moonTime() {
+    let howManyMoons = prompt("how many moons do you want to see?");
+    for (let i = 0; i < howManyMoons; i++ ){
+        document.write('<img class="loop-moon" src ="moon.jpg" alt="moon exploding" />');
 
+    }
 
-
-/* document.write("Hi " + usersName + " Welcome to my page") */
-/* if (usersName == "Andrew") {
-    document.write(" Helloooooooo");
-} else if (usersName == null) {
-    document.write(" You lazy bum")
-} else {
-    document.write(" Enjoy your stay")
- */
+}
